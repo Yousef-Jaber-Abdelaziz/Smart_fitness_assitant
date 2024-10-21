@@ -10,7 +10,7 @@ The **Smart Fitness Assistant** is designed to enhance workout experiences by pr
 - **Feedback Generation:** Finally, it delivers feedback to the user based on their performance, helping to improve technique and efficiency.
 This comprehensive approach aims to support users in achieving their fitness goals while maintaining proper form and reducing the risk of injury.
 
-# kjbkj
+### kjbkj
 
 
 This section outlines the key features of the application and explains how they work to provide real-time feedback and assistance during your workouts.
