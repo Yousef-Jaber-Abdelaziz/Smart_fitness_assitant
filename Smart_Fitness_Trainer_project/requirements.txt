@@ -1,4 +1,7 @@
 streamlit
 opencv-python
 numpy
+PyOpenGL
+PyOpenGL-accelerate
+
 # Add any other libraries your app requires
