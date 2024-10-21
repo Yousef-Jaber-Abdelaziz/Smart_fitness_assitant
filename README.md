@@ -18,14 +18,16 @@ This section is to explain how each feature works to provide real-time feedback 
 The workout detection system is built through a structured process of data collection, processing, and model training, resulting in high-accuracy predictions. Here’s an overview of how this feature works:
 
 1. **Data Collection**: We began by collecting videos for four workout classes (biceps, squats, pushups, and a neutral state) and we have collected data as follows:
-   
-                              | Exercise           | Total Videos         | Video Duration              | Frame Rates          |
-                              |--------------------|----------------------|-----------------------------|----------------------|
-                              | Squats             | 45                   | 3 to 10 seconds             | 25-30 fps            |
-                              | Bicep-Curls        | 47                   | 3 to 10 seconds             | 25-30 fps            |
-                              | Neutral            | 246                  | 1 to 3 seconds              | 25 fps               |
-                              | Push-Ups           | 53                   | 2 to 4 seconds              | 22-25 fps            |
+<div align="center">
 
+| Exercise           | Total Videos         | Video Duration        | Frame Rates          |
+|--------------------|----------------------|-----------------------|----------------------|
+| Squats             | 45                   | 3 to 10 seconds       | 25-30 fps            |
+| Bicep-Curls        | 47                   | 3 to 10 seconds       | 25-30 fps            |
+| Neutral            | 246                  | 1 to 3 seconds        | 25 fps               |
+| Push-Ups           | 53                   | 2 to 4 seconds        | 22-25 fps            |
+
+</div>
 
 
 2. **Keypoint Extraction**: Using the Mediapipe library, we extracted keypoints from the collected videos.
