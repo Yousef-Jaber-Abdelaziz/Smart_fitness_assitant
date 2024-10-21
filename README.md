@@ -1,13 +1,14 @@
 # Smart Fitness Assistant
 
 ## Overview
-The **Smart Fitness Assistant** is a Python-based application designed to provide real-time feedback and guidance for fitness exercises. Leveraging computer vision and machine learning techniques, this app helps users improve their workout techniques and achieve their fitness goals.
+The **Smart Fitness Assistant** is designed to enhance workout experiences by providing real-time feedback and performance tracking. The project has the following features:
 
 ## Features
-- **Exercise Detection:** Utilizes a YOLOv8 model to detect keypoints for various exercises (biceps curls, squats, pushups).
-- **Real-time Feedback:** Provides instant feedback on user form and technique during workouts.
-- **Custom Workouts:** Users can select from different workout routines tailored to their fitness level.
-- **Video & Image Output:** Generates videos and images to visualize the workout performance and improvements over time.
+- **Exercise Detection:** The assistant identifies the current workout being performed by the user.
+- **Body Orientation Detection:** It then assesses the user's body orientation to ensure proper form and alignment.
+- **Repetition Counting:** The system counts the number of repetitions completed for each exercise.
+- **Feedback Generation:** Finally, it delivers feedback to the user based on their performance, helping to improve technique and efficiency.
+This comprehensive approach aims to support users in achieving their fitness goals while maintaining proper form and reducing the risk of injury.
 
 ## Technologies Used
 - Python 3.9
