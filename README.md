@@ -19,12 +19,12 @@ The workout detection system is built through a structured process of data colle
 
 1. **Data Collection**: We began by collecting videos for four workout classes (biceps, squats, pushups, and a neutral state) and we have collected data as follows:
    
-| Exercise           | Precision           | Recall              | F1-Score          |
-|--------------------|---------------------|---------------------|-------------------|
-| Squats             | 0.98                | 0.97                | 0.97              |
-| Bicep-Curls        | 0.99                | 0.98                | 0.98              |
-| Neutral            | 1.00                | 1.00                | 1.00              |
-| Push-Ups           | 0.97                | 0.96                | 0.97              |
+| Exercise           | Total Videos         | Video Duration              | Frame Rates          |
+|--------------------|----------------------|-----------------------------|----------------------|
+| Squats             | 45                   | 3 to 10 seconds             | 25-30 fps            |
+| Bicep-Curls        | 47                   | 3 to 10 seconds             | 25-30 fps            |
+| Neutral            | 246                  | 1 to 3 seconds              | 25 fps               |
+| Push-Ups           | 53                   | 2 to 4 seconds              | 22-25 fps            |
 
 
 
