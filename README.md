@@ -12,3 +12,5 @@ This comprehensive approach aims to support users in achieving their fitness goa
 
 ## Features Descriptions
 This section is to explain how each feature works to provide real-time feedback and assistance during your workouts.
+
+### Exercise Detection
