@@ -1,4 +1,0 @@
-streamlit
-opencv-python
-numpy
-# Add any other dependencies you are using
