@@ -2,6 +2,6 @@ numpy==1.24.0
 cython==0.29.32
 opencv-python-headless
 streamlit==1.25.0  # or your desired version
-mediapipe=0.10.14
+mediapipe
 # Add any other dependencies as needed
 
