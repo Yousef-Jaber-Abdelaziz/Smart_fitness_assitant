@@ -58,4 +58,16 @@ If the ratio is greater than **0.6**, the system detects the body as being **fro
   <img src="Smart_Fitness_Trainer_project/Project_Results/side_orientation-ezgif.com-video-to-gif-converter.gif" width="320" height="240"/>
 </div>
 
+### 3) Repetition Count
+
+The repetition counting feature is built upon a state-based logic system, which ensures accuracy by monitoring the specific phases of each exercise. For instance, the squat workout consists of three main states:
+
+1. **Standing (S1)**: The starting position where the user stands upright.
+2. **Lowering (S2)**: The phase where the user descends into the squat position.
+3. **Bottom (S3)**: The lowest point of the squat before returning to standing.
+
+To count a valid repetition, all three states must occur sequentially: the user must start from the standing position (S1), move into the lowering position (S2), and reach the bottom position (S3). If any of these states are missed or not completed in the correct order, the repetition count is deemed inaccurate, prompting feedback to the user.
+
+This logic applies to other workouts as well, with each exercise having its specific states defined to ensure accurate counting and feedback. The following diagram illustrates the state transitions for the squat exercise:
+
 
