@@ -40,6 +40,7 @@ The workout detection system is built through a structured process of data colle
 
 6. **Result**: With this trained model, the system can accurately detect the workout being performed by the user in real time.
 
-| Classification Report | Confusion Matrix |
-|-------------------------------|------------------------------|
-| ![Keypoint Extraction](path/to/image1.png) | ![Model Accuracy](path/to/image2.png) |
+<div align="center">
+  <img src="Smart_Fitness_Trainer_project/Project_Results/Random_forest_confusion_matrex.jpg" alt="Image 1" style="width: 45%; display: inline-block; margin right: 5%;" />
+  <img src="Smart_Fitness_Trainer_project/Project_Results/RF_action_detection_results.jpg" alt="Image 2" style="width: 45%; display: inline-block;" />
+</div>
