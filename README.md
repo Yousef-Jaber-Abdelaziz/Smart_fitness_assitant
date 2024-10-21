@@ -53,23 +53,14 @@ The orientation of the body is determined by calculating the ratio between two d
 
 If the ratio is greater than **0.6**, the system detects the body as being **front-facing**. Otherwise, it is classified as a **side view**. The side is determined based on the most visible body points from the side.
 
-<div align="center">
-
-\[
-\text{Ratio} = \frac{\text{Distance between shoulders}}{\text{Distance between shoulder and elbow (most visible side)}}
-\]
-
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <video width="320" height="240" controls>
+        <source src="Smart_Fitness_Trainer_project/Project_Results/side_orientation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <video width="320" height="240" controls>
+        <source src="Smart_Fitness_Trainer_project/Project_Results/front_orientation_results.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
 </div>
-
-If:
-
-\[
-\text{Ratio} > 0.6 \Rightarrow \text{Frontside} 
-\]
-
-Else:
-
-\[
-\text{Side}
-\]
 
