@@ -44,3 +44,32 @@ The workout detection system is built through a structured process of data colle
   <img src="Smart_Fitness_Trainer_project/Project_Results/Random_forest_confusion_matrex.jpg" alt="Image 1" style="width: 45%; display: inline-block; margin right: 5%;" />
   <img src="Smart_Fitness_Trainer_project/Project_Results/RF_action_detection_results.jpg" alt="Image 2" style="width: 45%; display: inline-block;" />
 </div>
+
+### 2) Body Orientation
+
+The orientation of the body is determined by calculating the ratio between two distances:
+1. **Distance between the shoulder points (left and right shoulder)**.
+2. **Distance between the shoulder and elbow on the most visible side**.
+
+If the ratio is greater than **0.6**, the system detects the body as being **front-facing**. Otherwise, it is classified as a **side view**. The side is determined based on the most visible body points from the side.
+
+<div align="center">
+
+\[
+\text{Ratio} = \frac{\text{Distance between shoulders}}{\text{Distance between shoulder and elbow (most visible side)}}
+\]
+
+</div>
+
+If:
+
+\[
+\text{Ratio} > 0.6 \Rightarrow \text{Frontside} 
+\]
+
+Else:
+
+\[
+\text{Side}
+\]
+
