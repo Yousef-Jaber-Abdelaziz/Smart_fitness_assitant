@@ -1,4 +1,4 @@
 streamlit
-opencv-python==4.5.5.64  # You can try versions below 4.10.0 if 4.10.0 fails
+opencv-python==4.9.0  # You can try versions below 4.10.0 if 4.10.0 fails
 numpy
 # Add any other libraries your app requires
