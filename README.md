@@ -104,5 +104,7 @@ By addressing these common issues in real-time, users can achieve their fitness 
 
 # Here is sample output 
 
-
+<div align="center">
+  <img src="Smart_Fitness_Trainer_project/Project_Results/full_project_results.gif" width="520" height="340"/>
+</div>
 
