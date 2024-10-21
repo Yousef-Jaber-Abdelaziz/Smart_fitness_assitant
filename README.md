@@ -10,8 +10,10 @@ The **Smart Fitness Assistant** is designed to enhance workout experiences by pr
 - **Feedback Generation:** Finally, it delivers feedback to the user based on their performance, helping to improve technique and efficiency.
 This comprehensive approach aims to support users in achieving their fitness goals while maintaining proper form and reducing the risk of injury.
 
+
 ## Features Descriptions
 This section is to explain how each feature works to provide real-time feedback and assistance during your workouts.
+
 
 ### 1) Exercise Detection
 
@@ -45,6 +47,7 @@ The workout detection system is built through a structured process of data colle
   <img src="Smart_Fitness_Trainer_project/Project_Results/RF_action_detection_results.jpg" alt="Image 2" style="width: 45%; display: inline-block;" />
 </div>
 
+
 ### 2) Body Orientation
 
 The orientation of the body is determined by calculating the ratio between two distances:
@@ -57,6 +60,7 @@ If the ratio is greater than **0.6**, the system detects the body as being **fro
   <img src="Smart_Fitness_Trainer_project/Project_Results/front_orientation_results-ezgif.com-video-to-gif-converter.gif" width="320" height="240"/>
   <img src="Smart_Fitness_Trainer_project/Project_Results/side_orientation-ezgif.com-video-to-gif-converter.gif" width="320" height="240"/>
 </div>
+
 
 ### 3) Repetition Count
 
@@ -73,5 +77,32 @@ This logic applies to other workouts as well, with each exercise having its spec
 <div align="center">
   <img src="Smart_Fitness_Trainer_project/Project_Results/counting logic.png" alt="Repetition Count States" width="400"/>
 </div>
+
+
+### 4) Realtime Feedback
+Each exercise is associated with common problems that can hinder effectiveness and potentially lead to injury. By utilizing MediaPipe, we can accurately analyze the user's movements and detect these issues.
+
+#### Common Problems Detected:
+
+1. **Squats:**
+   - **Knees Caving In:** This occurs when the knees move inward during the squat, which can lead to joint strain.
+   - **Insufficient Depth:** Failing to reach the proper depth can reduce the effectiveness of the squat.
+
+2. **Push-Ups:**
+   - **Incorrect Hand Placement:** Placing hands too wide or too narrow can alter the mechanics and effectiveness of the push-up.
+   - **Sagging Hips:** Allowing the hips to sag towards the ground can strain the lower back.
+
+3. **Biceps Curls:**
+   - **Swinging the Body:** Using momentum instead of muscle strength to lift the weights can diminish the workout's effectiveness.
+   - **Incomplete Range of Motion:** Not fully extending or flexing the arms can reduce muscle engagement.
+
+#### Feedback Mechanism:
+Using MediaPipe's pose estimation capabilities, the Smart Fitness Assistant continuously monitors the user's form during exercises. When a common problem is detected, the system provides immediate feedback, guiding users on how to correct their movements. This not only helps in improving performance but also promotes safe workout practices.
+
+By addressing these common issues in real-time, users can achieve their fitness goals more effectively while minimizing the risk of injury.
+
+
+# Here is sample output 
+
 
 
