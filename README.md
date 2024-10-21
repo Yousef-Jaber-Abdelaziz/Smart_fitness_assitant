@@ -10,17 +10,6 @@ The **Smart Fitness Assistant** is designed to enhance workout experiences by pr
 - **Feedback Generation:** Finally, it delivers feedback to the user based on their performance, helping to improve technique and efficiency.
 This comprehensive approach aims to support users in achieving their fitness goals while maintaining proper form and reducing the risk of injury.
 
-## Technologies Used
-- Python 3.9
-- OpenCV
-- Mediapipe
-- Streamlit for web deployment
-- NumPy, Pandas, and other essential libraries
 
-## Getting Started
-To set up the project locally, follow these steps:
 
-### Prerequisites
-Make sure you have Python 3.9 installed. You can check your version with:
-```bash
-python --version
+This section outlines the key features of the application and explains how they work to provide real-time feedback and assistance during your workouts.
