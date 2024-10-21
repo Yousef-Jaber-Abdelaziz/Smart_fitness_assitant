@@ -1,12 +1,6 @@
-streamlit
-opencv-python
-#numpy
-PyOpenGL==3.1.6
-PyOpenGL-accelerate
-
 numpy==1.24.0
 cython==0.29.32
-#opencv-python-headless==4.10.0
+opencv-python-headless==4.10.0
+streamlit==1.25.0  # or your desired version
+# Add any other dependencies as needed
 
-
-# Add any other libraries your app requires
