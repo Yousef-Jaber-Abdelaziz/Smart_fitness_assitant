@@ -3,6 +3,7 @@ cython==0.29.32
 mediapipe
 opencv-python-headless==4.6.0.66
 streamlit==1.25.0  # or your desired version
+joblib
 
 # Add any other dependencies as needed
 
