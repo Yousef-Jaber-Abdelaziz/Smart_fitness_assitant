@@ -28,15 +28,15 @@ The workout detection system is built through a structured process of data colle
 
 
 
-3. **Keypoint Extraction**: Using the Mediapipe library, we extracted keypoints from the collected videos.
+2. **Keypoint Extraction**: Using the Mediapipe library, we extracted keypoints from the collected videos.
 
-4. **Data Preparation**: The extracted keypoints were saved into a CSV file, which was then split into training and validation sets using an 80:20 ratio.
+3. **Data Preparation**: The extracted keypoints were saved into a CSV file, which was then split into training and validation sets using an 80:20 ratio.
 
-5. **Data Scaling**: To ensure consistency and improve the performance of the machine learning model, the keypoint data was scaled using a Standard Scaler.
+4. **Data Scaling**: To ensure consistency and improve the performance of the machine learning model, the keypoint data was scaled using a Standard Scaler.
 
-6. **Model Training**: We employed a Random Forest model, which is known for its robustness and accuracy. The model was trained on the scaled keypoint data, achieving an impressive accuracy of 99.26%.
+5. **Model Training**: We employed a Random Forest model, which is known for its robustness and accuracy. The model was trained on the scaled keypoint data, achieving an impressive accuracy of 99.26%.
 
-7. **Result**: With this trained model, the system can accurately detect the workout being performed by the user in real time.
+6. **Result**: With this trained model, the system can accurately detect the workout being performed by the user in real time.
 
 | Classification Report | Confusion Matrix |
 |-------------------------------|------------------------------|
