@@ -274,8 +274,8 @@ def release_assistant(vid_path, st_frame_placeholder):
     counters = ''
 
     # Load the trained model and scaler
-    clf = joblib.load('Yousef-Jaber-Abdelaziz/Smart_fitness_assitant/Smart_Fitness_Trainer_project/workout_classifier_model.pkl')
-    scaler = joblib.load('Yousef-Jaber-Abdelaziz/Smart_fitness_assitant/Smart_Fitness_Trainer_project/scaler.pkl')
+    clf = joblib.load('workout_classifier_model.pkl')
+    scaler = joblib.load('scaler.pkl')
 
     # Open the video file
     cap = cv2.VideoCapture(vid_path)
