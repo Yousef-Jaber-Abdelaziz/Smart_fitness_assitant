@@ -70,4 +70,8 @@ To count a valid repetition, all three states must occur sequentially: the user 
 
 This logic applies to other workouts as well, with each exercise having its specific states defined to ensure accurate counting and feedback. The following diagram illustrates the state transitions for the squat exercise:
 
+<p align="center">
+  <img src="Smart_Fitness_Trainer_project/Project_Results/counting_logic.png" alt="Repetition Count States" width="400"/>
+</p>
+
 
