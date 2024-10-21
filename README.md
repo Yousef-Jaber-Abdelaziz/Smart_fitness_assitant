@@ -53,6 +53,9 @@ The orientation of the body is determined by calculating the ratio between two d
 
 If the ratio is greater than **0.6**, the system detects the body as being **front-facing**. Otherwise, it is classified as a **side view**. The side is determined based on the most visible body points from the side.
 
-[Side Orientation Video](Smart_Fitness_Trainer_project/Project_Results/side_orientation.mp4)  
-[Front Orientation Video](Smart_Fitness_Trainer_project/Project_Results/front_orientation_results.mp4)
+<div align="center">
+  <img src="Smart_Fitness_Trainer_project/Project_Results/front_orientation_results-ezgif.com-video-to-gif-converter.gif" width="320" height="240"/>
+  <img src="Smart_Fitness_Trainer_project/Project_Results/side_orientation-ezgif.com-video-to-gif-converter.gif" width="320" height="240"/>
+</div>
+
 
