@@ -18,12 +18,13 @@ This section is to explain how each feature works to provide real-time feedback 
 The workout detection system is built through a structured process of data collection, processing, and model training, resulting in high-accuracy predictions. Here’s an overview of how this feature works:
 
 1. **Data Collection**: We began by collecting videos for four workout classes (biceps, squats, pushups, and a neutral state) and we have collected data as follows:
-| Classification Report | Confusion Matrix |
-|-------------------------------|------------------------------|
-| Squats | ![Model Accuracy](path/to/image2.png) |
-| Bicep-Curls | ![Model Accuracy](path/to/image2.png) |
-| Neutral | ![Model Accuracy](path/to/image2.png) |
-| Push-Ups | ![Model Accuracy](path/to/image2.png) |
+| Exercise           | Precision           | Recall              | F1-Score          |
+|--------------------|---------------------|---------------------|-------------------|
+| Squats             | 0.98                | 0.97                | 0.97              |
+| Bicep-Curls        | 0.99                | 0.98                | 0.98              |
+| Neutral            | 1.00                | 1.00                | 1.00              |
+| Push-Ups           | 0.97                | 0.96                | 0.97              |
+
 
 
 3. **Keypoint Extraction**: Using the Mediapipe library, we extracted keypoints from the collected videos.
