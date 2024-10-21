@@ -1,7 +1,7 @@
 # Smart Fitness Assistant
 
 ## Overview
-The **Smart Fitness Assistant** is designed to enhance workout experiences by providing real-time feedback and performance tracking. The project has the following features:
+The **Smart Fitness Assistant** is designed to enhance workout experiences by providing real-time feedback and performance tracking. The project flow consists of some features described as follows :
 
 ## Features
 - **Exercise Detection:** The assistant identifies the current workout being performed by the user.
@@ -14,7 +14,6 @@ This comprehensive approach aims to support users in achieving their fitness goa
 - Python 3.9
 - OpenCV
 - Mediapipe
-- YOLOv8
 - Streamlit for web deployment
 - NumPy, Pandas, and other essential libraries
 
