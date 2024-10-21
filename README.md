@@ -13,7 +13,7 @@ This comprehensive approach aims to support users in achieving their fitness goa
 ## Features Descriptions
 This section is to explain how each feature works to provide real-time feedback and assistance during your workouts.
 
-### Exercise Detection
+### 1) Exercise Detection
 
 The workout detection system is built through a structured process of data collection, processing, and model training, resulting in high-accuracy predictions. Here’s an overview of how this feature works:
 
