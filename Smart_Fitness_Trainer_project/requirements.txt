@@ -1,4 +1,4 @@
 streamlit
-opencv-python
+opencv-python-headless==4.10.0
 numpy
 # Add any other libraries your app requires
